@@ -7,19 +7,18 @@
   background-color: papayawhip;
   width: 80%;
   height: 2rem;
-   /* margin: 0.25rem 0 0; */
+  /* margin: 0.25rem 0 0; */
   /* padding: 0 0.5rem 0.25rem; */
-   margin: 3rem 2rem 2rem 3rem;
+  margin: 3rem 2rem 2rem 3rem;
   padding: 0.9px;
   border: 2px solid #333;
   border-radius: 40px;
   cursor: pointer;
-  outline: 2px green solid;
-  outline-offset: 10px;
+  outline: 5px green solid;
+  outline-offset: 5px;
   box-shadow: 2px 2px;
-  
 
-  outline-width: 5px;
+  outline-width: 1px;
   display: flex;
 }
 
@@ -29,12 +28,11 @@
 }
 
 .searchForm input[type="text"] {
-    position: relative;
-    max-width: 100%;
+  max-width: 100%;
+  min-height: 10px;
 
-    flex-grow: 1; /* This is fantastic*/
-    border: 2px solid #000;
-    border-radius: 1.2rem;
-    outline: none;
-  
+  flex-grow: 1; /* This is fantastic*/
+  border: 2px solid #000;
+  border-radius: 1rem;
+  outline: none;
 }
